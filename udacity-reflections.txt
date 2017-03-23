@@ -1,0 +1,66 @@
+Git and Git hub - lessons from udacity.
+
+
+1. use simple text editor eg. notepad so that we can easily look at file contents on the command line.
+2. The course uses sublime
+
+3. version controls , dropbox, google drive, wikipedia etc provide version control.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in git vs having versions automatically saved, like google docs does/
+
+Manual save is more efficent in keeping different versions of the file, however may be risk data lost if the author do not commit frequently.
+
+Why do you think some version control systems, like GIT, allow saving multiple files in one commit, while other, like google docs treat each file separately?
+
+eg.. there are files that are related and to commit all files ensure that all files are saved.
+
+
+To clone a repository, run "git clone" follow by a space and the repository URL
+
+to view log, git log , press q to quit
+
+t get colored output
+
+git config --global color.ui auto
+
+
+Copy and Paste,
+
+-- Windows, ctrl+c, ctrl+v
+-- mac, cmd+c, cmd+v
+-- ubuntu ctrl+shift+c ctrl+shift+v
+
+git log // shw a list of the recent commits with info.
+git diff commit IDs one, commit IDs two  will compare the two versions of the code in those commits. 
+
+
+original
+
+3884eab839af1e82c44267484cf2945a766081f3
+
+
+Command git log
+
+
+Git command review
+
+
+// Compare two commits, printing each line that is present in one commit but not the other
+git diff 
+
+// Make a copy of an entire Git repository, include history, onto own coputer.
+
+git clone
+
+// temporarity reset all files in a directory to the state at the fime of a specific commit
+git checkout
+
+//show commits made in this repository, starting with the most recent.
+
+git log
+
+
+How is the staging area different from the working directory and the repository? What value you think it offers?
+
+
+
