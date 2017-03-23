@@ -1,0 +1,65 @@
+What appens when you initialize a repository? why do you need to do it?
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+How canyou use the staging area to make sure you have one commit per logical change?
+
+what are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do ?
+
+What are the pros and cons of automatic merging vs always doing merges manually?
+
+Reflect: Staging Area
+Now that you've added a file to the staging area, go add the the following question and your thoughts on it to your lesson_2_reflections file:
+
+How is the staging area different from the working directory and the repository? what value do you think it offers.
+
+How to write a commit message
+Your're about to make your first commit to your reflections repository. When you do this, you'll need to write a commit message describing your changes. If you, followed the instructions in the "Setting up your workspace video for your platform near the end of lesssion 1. The editor you choose will appear soon as you run git commit and allow you to write a commit message. if you get an error message, you should try revisiting the instructions in lesson 1 and make sure your text editor is setup properly.
+
+You can also specifiy a  commit message via the command line by running git commit -m "Commit message" instad of just git commit. It's a good idea to get an editor setup, since this will make it easier to write long commit messages that fully describe the change.
+
+commit message style.
+
+While commit message style varies from person to person, this style guide describes some common best practices when writing commit messages.
+
+Commit message structure.
+
+A commit message consists of three distinct parts separated by a blank line: The title, an optional body and an optional footer. The Layout looks like this:
+
+type: subject
+
+body
+
+footer
+
+The title consists of the type of the message and can be one of these types
+
+feat: new feature
+fix: a bug fix
+docs: changes to documentation
+style: formatting, missing semi colons only no code change
+refactor: refactoring production code
+test: adding tests, refactoring test; no production code change
+chore: updating build tasks, package manager configs, no production code change
+
+
+The subject should be no longer than 50 characters, should begin with a capital letter and do not end with a period
+
+Use an imperative tone to describe what a commit does, rather then what it did. For example, use change, not changed or changes.
+
+The Body
+
+Not all commits are complex enough to warrant a body, therefore it is optional and only used when a commit requires a bit of explanation and contact. use the body to explant the what and why of a commit, not the how.
+
+when writing a body, the blank line between the title and the body is required and yoiu should limit the lenght of each line to no more than 72 characters.
+
+
+The Footer
+The footer is optional and is used to reference issue tracker IDs.
+
+
